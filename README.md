@@ -2,7 +2,7 @@
 	CPP
 </h1>
 <h2 align="center">
-	<b><i>Multithreading project</i></b><br>
+	<b><i>c++ development</i></b><br>
 </h2>
 
 <p align="center">
