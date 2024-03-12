@@ -2,7 +2,7 @@
 	CPP
 </h1>
 <h2 align="center">
-	<b><i>Multithreading project</i></b><br>
+	<b><i>c++ development</i></b><br>
 </h2>
 
 <p align="center">
@@ -16,6 +16,3 @@
 <p align="center">
 	Mac OS X 10.15.7 (Darwin Kernel Version 19.6.0)<br>
 </p>
-
-## Overview
-All 42school cpp exercises
