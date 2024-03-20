@@ -6,7 +6,7 @@
 #    By: psimarro <psimarro@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/03/12 19:46:31 by psimarro          #+#    #+#              #
-#    Updated: 2024/03/12 19:46:34 by psimarro         ###   ########.fr        #
+#    Updated: 2024/03/18 18:22:47 by psimarro         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -35,7 +35,7 @@ RM			=	rm
 #                                   SOURCES                                    #
 # **************************************************************************** #
 
-SRC			=	megaphone.cpp
+SRC			=	main.cpp Contact.cpp PhoneBook.cpp
 
 OBJ_DIR		=	obj/
 OBJ			= 	$(addprefix $(OBJ_DIR), $(SRC:%.cpp=%.o))
