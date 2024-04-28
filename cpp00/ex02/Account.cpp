@@ -6,7 +6,7 @@
 /*   By: psimarro <psimarro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/28 20:18:13 by psimarro          #+#    #+#             */
-/*   Updated: 2024/04/28 20:18:41 by psimarro         ###   ########.fr       */
+/*   Updated: 2024/04/28 21:38:01 by psimarro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -125,5 +125,4 @@ void	Account::_displayTimestamp(void)
 	time_struct = localtime(&currentdate);
 	strftime(date, 19, "[%Y%m%d_%H%M%S]", time_struct);
 	std::cout << date;
-	//std::cout << "[19920104_091532]";
 }
