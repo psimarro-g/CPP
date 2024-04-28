@@ -6,7 +6,7 @@
 /*   By: psimarro <psimarro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/12 20:10:43 by psimarro          #+#    #+#             */
-/*   Updated: 2024/03/20 09:46:44 by psimarro         ###   ########.fr       */
+/*   Updated: 2024/04/28 19:35:16 by psimarro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,17 +39,22 @@ void	PhoneBook::SearchContact(void)
 	std::cout << std::setw(10) << "First Name" << "|";
 	std::cout << std::setw(10) << "Last Name" << "|";
 	std::cout << std::setw(10) << "Nickname" << std::endl;
-	while (i < 8)
+	while (i <= 8)
 	{
-		_pbook[i].displaycontactind();
+		if (_pbook[i - 1].checkcontact())
+		{
+			std::cout << std::setw(10) << i << "|";
+			_pbook[i - 1].displaycontactind();
+		}
 		i++;
 	}
 	std::cout << "Enter the index of the contact you want to display: ";
-	std::getline(std::cin, index);
-	if (index.length() == 1 && index[0] >= '0' && index[0] <= '7')
+	if (!std::getline(std::cin, index))
+		return ;
+	if (index.length() == 1 && index[0] >= '1' && index[0] <= '8' && _pbook[index[0] - '0' - 1].checkcontact())
 	{
 		i = index[0] - '0';
-		_pbook[i].displaycontact();
+		_pbook[index[0] - '0' - 1].displaycontact();
 	}
 	else
 		std::cout << "Invalid index" << std::endl;

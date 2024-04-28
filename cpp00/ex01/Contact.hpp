@@ -6,7 +6,7 @@
 /*   By: psimarro <psimarro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/18 18:20:06 by psimarro          #+#    #+#             */
-/*   Updated: 2024/03/18 20:46:02 by psimarro         ###   ########.fr       */
+/*   Updated: 2024/04/28 18:36:52 by psimarro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,6 +36,8 @@ class Contact
 		std::string _nickname;
 		std::string _phone_number;
 		std::string _darkest_secret;
+
+		bool	_errorcreating(int i);
 };
 
 #endif
