@@ -10,7 +10,6 @@
 	<img alt="Code language count" src="https://img.shields.io/github/languages/count/psimarro-g/CPP?color=yellow" />
 	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/psimarro-g/CPP?color=blue" />
 	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/psimarro-g/CPP?color=green" />
-	<img alt="GitHub code lines" src="https://tokei.rs/b1/github/psimarro-g/CPP?color=orange" height="20"/>
 </p>
 
 <p align="center">
