@@ -1,0 +1,8 @@
+# Ignora la carpeta node_modules
+*obj
+
+# Ignora todos los archivos de texto
+*.o
+*.a
+.vscode
+*.txt
