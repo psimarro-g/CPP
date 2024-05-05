@@ -13,5 +13,5 @@
 </p>
 
 <p align="center">
-	Mac OS X 10.15.7 (Darwin Kernel Version 19.6.0)<br>
+	Ubuntu 22.04.4 LTS (Kernel: Linux 5.15.0-105-generic)<br>
 </p>
